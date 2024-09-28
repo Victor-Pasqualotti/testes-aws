@@ -1,0 +1,31 @@
+{
+  "Comment": "Recebe lista de payloads e direciona para execuções paralelas no processo filho.",
+  "StartAt": "Processamento em Paralelo",
+  "States": {
+    "Processamento em Paralelo": {
+      "Type": "Map",
+      "InputPath": "$",
+      "ItemsPath": "$.Payload",
+      "Iterator": {
+        "StartAt": "Step Functions StartExecution",
+        "States": {
+          "Step Functions StartExecution": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::states:startExecution.sync:2",
+            "Parameters": {
+              "StateMachineArn": "arn:aws:states:REGION:ACCOUNT_ID:stateMachine:SF_NAME",
+              "Name.$": "$.name",
+              "Input": {
+                "dataset.$": "$.dataset",
+                "DPU.$": "$.DPU",
+                "AWS_STEP_FUNCTIONS_STARTED_BY_EXECUTION_ID.$": "$$.Execution.Id"
+              }
+            },
+            "End": true
+          }
+        }
+      },
+      "End": true
+    }
+  }
+}

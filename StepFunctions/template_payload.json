@@ -1,0 +1,109 @@
+{
+    "Payload":[
+        {
+            "name": "TableN1_{dt}",
+            "dataset": "cadastro",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN2_{dt}",
+            "dataset": "ordens",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN3_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN4_{dt}",
+            "dataset": "clientes",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN5_{dt}",
+            "dataset": "financeiro",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN6_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN7_{dt}",
+            "dataset": "marketing",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN8_{dt}",
+            "dataset": "fabrica",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN9_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN10_{dt}",
+            "dataset": "distribuicao",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN11_{dt}",
+            "dataset": "lojas",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN12_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN13_{dt}",
+            "dataset": "pagamentos",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN14_{dt}",
+            "dataset": "atendimento",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN15_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN16_{dt}",
+            "dataset": "relacionamento",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN17_{dt}",
+            "dataset": "vantagens",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN18_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN19_{dt}",
+            "dataset": "planejamento",
+            "DPU": "100"
+        },
+        {
+            "name": "TableN20_{dt}",
+            "dataset": "businessplan",
+            "DPU": "150"
+        },
+        {
+            "name": "TableN21_{dt}",
+            "dataset": "null",
+            "DPU": "100"
+        }
+    ]
+}
